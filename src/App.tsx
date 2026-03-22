@@ -6,7 +6,6 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { AuthProvider, useAuth } from "@/contexts/AuthContext";
 import Landing from "./pages/Landing";
 import Dashboard from "./pages/Dashboard";
-import CycleInsights from "./pages/CycleInsights";
 import HealthHub from "./pages/HealthHub";
 import MoodSupport from "./pages/MoodSupport";
 import JournalPage from "./pages/JournalPage";
@@ -27,7 +26,6 @@ const AppRoutes = () => {
     <Routes>
       <Route path="/" element={user ? <Navigate to="/dashboard" replace /> : <Landing />} />
       <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
-      <Route path="/cycle-insights" element={<ProtectedRoute><CycleInsights /></ProtectedRoute>} />
       <Route path="/health-hub" element={<ProtectedRoute><HealthHub /></ProtectedRoute>} />
       <Route path="/mood" element={<ProtectedRoute><MoodSupport /></ProtectedRoute>} />
       <Route path="/journal" element={<ProtectedRoute><JournalPage /></ProtectedRoute>} />
