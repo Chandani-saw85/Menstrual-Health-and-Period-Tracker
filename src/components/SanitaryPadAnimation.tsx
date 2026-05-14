@@ -50,7 +50,7 @@ const SanitaryPadAnimation = ({ size = "lg" }: { size?: "sm" | "md" | "lg" }) =>
       {/* Sparkles around pad */}
       <div className="absolute -top-3 -right-2 text-xs animate-sparkle" style={{ animationDelay: "0s" }}>✨</div>
       <div className="absolute -bottom-2 -left-3 text-xs animate-sparkle" style={{ animationDelay: "0.5s" }}>💖</div>
-      <div className="absolute top-1/4 -left-5 text-xs animate-sparkle" style={{ animationDelay: "1s" }}>✨</div>
+      <div className="absolute top-1/4 -left-5 text-xs animate-sparkle" style={{ animationDelay: "1s" }}> </div>
       <div className="absolute top-1/3 -right-5 text-xs animate-sparkle" style={{ animationDelay: "0.7s" }}>🌸</div>
 
       {/* Animated drop */}
