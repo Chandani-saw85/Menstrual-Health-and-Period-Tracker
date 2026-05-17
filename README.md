@@ -1,6 +1,6 @@
 # Menstrual Health and Period Tracker
 
-A comprehensive and user-friendly web application designed to help individuals track their menstrual cycles, predict upcoming periods, and monitor health symptoms with privacy and ease.
+A comprehensive and user-friendly web application designed to help females track their menstrual cycles, predict upcoming periods, and monitor health symptoms with privacy and ease.
 
 ## 🚀 Features
 * **Cycle Tracking**: Log period dates and automatically calculate the length of your next cycle.
